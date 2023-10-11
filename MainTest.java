@@ -6,7 +6,9 @@ class MainTest {
     void BMICategory() {
         //Loi dau vao
         assertEquals("Input error", Main.BMICategory(2, 1.5));
-        assertEquals("Input error", Main.BMICategory(2, -1));
+        assertEquals("Input error", Main.BMICategory(50, -1));
+        assertEquals("Input error", Main.BMICategory(50, 3));
+        assertEquals("Input error", Main.BMICategory(600, 1.8));
 
         //Can nang binh thuong
         assertEquals("Normal", Main.BMICategory(60, 1.68));
