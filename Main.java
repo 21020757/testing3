@@ -6,8 +6,7 @@ public class Main {
             return "Input error";
         }
         String res;
-        double bmi;
-        bmi = (w) / Math.pow(h, 2);
+        double bmi = (w) / Math.pow(h, 2);
         if (bmi < 18.5) {
             res = "Underweight";
         } else if (bmi < 25) {
