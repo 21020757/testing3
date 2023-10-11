@@ -10,6 +10,10 @@ class MainTest {
         assertEquals("Input error", Main.BMICategory(50, 3));
         assertEquals("Input error", Main.BMICategory(600, 1.8));
 
+        //Thieu can
+        assertEquals("Underweight", Main.BMICategory(50, 1.8));
+        assertEquals("Underweight", Main.BMICategory(40, 1.7));
+
         //Can nang binh thuong
         assertEquals("Normal", Main.BMICategory(60, 1.68));
         assertEquals("Normal", Main.BMICategory(70, 1.8));
